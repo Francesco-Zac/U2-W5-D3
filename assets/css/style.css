@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 10px;
+  }
+  /* Gestione Header */
+  .navigationBar {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    background-color: #fef7e2;
+    padding: 1rem;
+  }
+
+  .navigationBar button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 55%;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffdf7f;
+    color: #6f2407;
+  }
+
+  .navigationBar button.middle {
+    color: #612406;
+    font-weight: bolder;
+    width: 22%;
+    height: 95%;
+    font-size: 1.2em;
+    align-items: center;
+  }
+  p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  span {
+    display: flex;
+    width: 30%;
+  }
+  span img {
+    width: 100%;
+    text-align: start;
+  }
+
+  h1 {
+    color: #612406;
+    font-size: xxx-large;
+  }
+
+  /* Gestione Card Conteiner */
+  .cardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .bioHoney {
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbf7e3;
+    width: 48%;
+    border-radius: 20%;
+    overflow: hidden;
+  }
+
+  .bioHoney img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  }
+
+  .informazioni {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .descrizione {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .testo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .titolo {
+    color: #612406;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .sottotitolo {
+    text-align: center;
+    color: #6f2407;
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  .prezzo {
+    color: #6f2407;
+    margin: 0;
+  }
+
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 200px;
+  }
+
+  .addToCart {
+    text-align: center;
+  }
+
+  .addToCart button {
+    background-color: #f2df85;
+    color: #6f2407;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    min-height: 25px;
+    margin-bottom: 15px;
+  }
+
+  /* Gestione Flex Articole */
+  .flexArticle {
+    display: flex;
+    min-width: 30vh;
+    min-height: 20vh;
+    padding: 1rem;
+    background-color: #fbf7e3;
+    border-radius: 40px;
+  }
+
+  .honeyArticle {
+    margin-inline: auto;
+  }
+  .flexArticle img {
+    margin-top: 1rem;
+    min-width: 100%;
+    justify-content: center;
+    border-radius: 0;
+  }
+
+  .flexArticle h6 {
+    color: #612406;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0;
+
+    margin-left: 0.8rem;
+  }
+
+  .flexArticle p {
+    color: #6f2407;
+    font-size: 1.1em;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+  }
+  h2 {
+    color: #612406;
+    font-size: xx-large;
+  }
+}
