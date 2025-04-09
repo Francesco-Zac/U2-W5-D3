@@ -1,0 +1,37 @@
+@media screen and (max-width: 500px) {
+  .flexArticle {
+    display: flex;
+    flex-direction: column-reverse;
+    min-width: 30vh;
+    min-height: 20vh;
+    padding: 1rem;
+    background-color: #fbf7e3;
+    border-radius: 40px;
+  }
+
+  .honeyArticle {
+    margin-inline: auto;
+  }
+  .flexArticle img {
+    margin-top: 1rem;
+
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .flexArticle h6 {
+    color: #612406;
+    font-size: 1em;
+    margin: 0;
+
+    margin-left: 0.8rem;
+  }
+
+  .flexArticle p {
+    color: #6f2407;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+  }
+}
