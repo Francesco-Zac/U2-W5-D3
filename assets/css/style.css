@@ -3,7 +3,7 @@ body {
 }
 
 /* Tablet */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 576px) {
   .container {
     margin: 10px;
   }
@@ -180,5 +180,98 @@ body {
   h2 {
     color: #612406;
     font-size: xx-large;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+  }
+  /* Gestione Header */
+  header {
+    position: sticky;
+    top: 0;
+    height: 100%;
+    width: 217%;
+  }
+  .navigationBar {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navigationBar button {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffdf7f;
+    color: #6f2407;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .navigationBar button.middle {
+    color: #612406;
+    font-weight: bolder;
+    font-size: 1.2em;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    order: -1;
+  }
+
+  span img {
+    text-align: end;
+    width: 40px;
+  }
+
+  /* gestisco il container */
+
+  .container {
+    margin-left: 4rem;
+  }
+  section {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  h1 {
+    width: 100%;
+  }
+  .cardContainer {
+    width: 66%;
+    justify-content: space-around;
+  }
+
+  .cardContainer.toMove {
+    justify-content: start;
+    width: 33%;
+  }
+  .bioHoney {
+    width: 45%;
+  }
+
+  .cardContainer.toMove .bioHoney {
+    width: 90%;
+  }
+
+  .bioHoney img {
+    height: unset;
+  }
+
+  /* .bioHoney:not(.cardContainer.toMove .bioHoney):first-child {
+    margin-left: 8%;
+  }
+
+  .bioHoney:not(.cardContainer.toMove .bioHoney):last-child {
+    margin-left: 22%;
+  } */
+
+  .bioHoney.toDelete {
+    display: none;
   }
 }
