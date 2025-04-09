@@ -1,0 +1,46 @@
+.navigationBar {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  background-color: #fef7e2;
+  border-radius: 50px;
+  padding: 1rem;
+}
+
+.navigationBar button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 55%;
+  border-radius: 50px;
+  border: none;
+  background-color: #ffdf7f;
+  color: #6f2407;
+}
+
+.navigationBar button.middle {
+  color: #612406;
+  font-weight: bolder;
+  width: 22%;
+  height: 95%;
+  font-size: 1.2em;
+  align-items: center;
+}
+p {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+}
+span {
+  display: flex;
+  width: 30%;
+}
+span img {
+  width: 100%;
+  text-align: start;
+}

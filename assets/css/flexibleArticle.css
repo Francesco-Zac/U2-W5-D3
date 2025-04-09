@@ -1,0 +1,31 @@
+.flexArticle {
+  display: flex;
+  max-width: 90vh;
+  max-height: 50vh;
+  padding: 1rem;
+  background-color: #fbf7e3;
+  border-radius: 40px;
+}
+
+.flexArticle img {
+  display: flex;
+  max-width: 40vh;
+  max-height: 35vh;
+  justify-content: center;
+}
+
+.flexArticle h6 {
+  color: #612406;
+  font-size: 1em;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+}
+
+.flexArticle p {
+  color: #6f2407;
+  font-size: 0.8em;
+  margin: 0;
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+}
